@@ -3,12 +3,10 @@
  */
 package PROG2_JavaFX_WordCloud;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import javafx.application.Application;
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+public class App {
+    public static void main(String[] args){
+        Application.launch(MainWindow.class, args);
     }
 }
